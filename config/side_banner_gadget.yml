@@ -1,0 +1,7 @@
+memberSwitchBox:
+  caption:
+    ja_JP: メンバー切り替えボックス
+  description:
+    ja_JP: パスワード無しで複数のメンバーのログイン状態を行き来できます
+  viewable_privilege: 4
+  component: [kdt, memberSwitchBox]

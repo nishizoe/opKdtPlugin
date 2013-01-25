@@ -1,0 +1,16 @@
+kdt_member_switch:
+  url: /kdt/memberSwitch
+  params: { module: kdt, action: memberSwitch }
+  requirements:
+    sf_method: [post]
+
+kdt_member_add:
+  url: /kdt/memberAdd
+  params: { module: kdt, action: memberAdd, number: 10 }
+  requirements:
+    number: \d+
+    sf_method: [post]
+
+kdt_no_default:
+  url: /kdt/*
+  params: { module: default, action: error }
