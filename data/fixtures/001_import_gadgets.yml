@@ -1,0 +1,5 @@
+Gadget:
+  gadget_member_switch_box:
+    type: sideBannerContents
+    name: memberSwitchBox
+    sort_order: 20
