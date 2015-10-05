@@ -7,8 +7,16 @@ class kdtActions extends sfActions
     $form = new opKdtMemberSelectForm();
     $form->bind($request->getParameter('member_select'));
     $this->forward404Unless($form->isValid());
-    
-    $this->getUser()->login($form->getValue('id'));
+
+    $memberId = $form->getValue('id');
+    if ($memberId !== null)
+    {
+      $this->getUser()->login($form->getValue('id'));
+    }
+    else
+    {
+      $this->getUser()->logout();
+    }
 
     $this->redirectToReferer($request);
   }
