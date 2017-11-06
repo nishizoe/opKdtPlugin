@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="">
+        <source>Kdt Plugin Configuration</source>
+        <target>KDTプラグイン設定</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Email domain</source>
+        <target>メールアドレスドメイン</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Please input the email domain for dummy members.'@' Is unnecessary.</source>
+        <target>ダミーメンバーのメールアドレスに使用する実際に使用可能なドメインを入力してください。「@」は不要です。</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

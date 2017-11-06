@@ -17,6 +17,8 @@ class opKdtGenerateMemberTask extends opKdtBaseTask
 
   protected function executeTransaction($conn, $arguments = array(), $options = array())
   {
+    $emailDomain = Doctrine::getTable('SnsConfig')->get('op_kdt_plugin_email_domain', 'example.com');
+    $options['mail-address-format'] = 'sns%d@'.$emailDomain;
     $n = (int)$options['number'];
     $link = $options['link'];
     if (null !== $link)

@@ -30,6 +30,7 @@ OpenPNE3.2.x-3.5.x用です。
 **opKdt:generate-member**
 
 ダミーメンバーを作成する。メールアドレスはPC/携帯ともに sns{id}@example.com がセットされ、パスワードは password がセットされる。
+※ example.com は、管理画面にて変更可能
 
 また、デフォルトではメンバー名は「dymmy{id}」となる。
 
